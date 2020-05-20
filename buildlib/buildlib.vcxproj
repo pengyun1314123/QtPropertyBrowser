@@ -372,11 +372,16 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\fileedit.cpp" />
+    <ClCompile Include="..\src\fileeditfactory.cpp" />
+    <ClCompile Include="..\src\filepathmanager.cpp" />
     <ClCompile Include="..\src\qtbuttonpropertybrowser.cpp" />
     <ClCompile Include="..\src\qtgroupboxpropertybrowser.cpp" />
     <ClCompile Include="..\src\qtpropertybrowser.cpp" />
     <ClCompile Include="..\src\qtpropertybrowserutils.cpp" />
     <ClCompile Include="..\src\qtvariantproperty.cpp" />
+    <ClCompile Include="..\src\variantfactory.cpp" />
+    <ClCompile Include="..\src\variantmanager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\src\qtbuttonpropertybrowser.h">
@@ -497,6 +502,21 @@
     <None Include="..\src\images\cursor-whatsthis.png" />
     <QtRcc Include="..\src\qtpropertybrowser.qrc">
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\src\fileedit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\src\fileeditfactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\src\filepathmanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\src\variantfactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\src\variantmanager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
