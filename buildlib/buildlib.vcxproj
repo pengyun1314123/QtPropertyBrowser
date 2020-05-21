@@ -110,7 +110,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QtSolutions_PropertyBrowser-head</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtSolutions_PropertyBrowser-head</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtPropertyBrowser</TargetName>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
@@ -121,7 +121,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QtSolutions_PropertyBrowser-headd</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtSolutions_PropertyBrowser-headd</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtPropertyBrowserd</TargetName>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
     <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PostBuildEventUseInBuild>
@@ -216,7 +216,7 @@
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
       <LinkDLL>true</LinkDLL>
       <LinkIncremental>false</LinkIncremental>
-      <OutputFile>$(OutDir)\QtSolutions_PropertyBrowser-head.dll</OutputFile>
+      <OutputFile>$(OutDir)\QtPropertyBrowser.dll</OutputFile>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
       <SubSystem>Windows</SubSystem>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -337,7 +337,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
       <LinkDLL>true</LinkDLL>
-      <OutputFile>$(OutDir)\QtSolutions_PropertyBrowser-headd.dll</OutputFile>
+      <OutputFile>$(OutDir)\QtPropertyBrowserd.dll</OutputFile>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
       <SubSystem>Windows</SubSystem>
       <SuppressStartupBanner>true</SuppressStartupBanner>
